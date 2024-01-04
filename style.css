@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0,0,0,.5);
+    background-color: black;
+}
+
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: #29f729 !important;
+}
+
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f729;
+}
+
+#navbarSupportedContent button{
+    background-color: #29f729;
+    width: 5rem;
+    border-radius: 15px;
+    color: white !important;
+}
+
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Home{
+    background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)), url(spices-frame.jpg);
+    /* background: url(spices-frame.jpg); */
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+
+#Home h1{
+    font-size: 100px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                 0px 2px 0px #ccc,
+                 0px 3px 0px #ccc,
+                 0px 4px 0px #ccc,
+                 0px 5px 0px #ccc;
+}
+
+#Home p{
+    font-size: 18px;
+    color: #fff;
+}
+
+#Home .input-group{
+    width: 40%;
+    height: 50px;
+}
+
+.signin{
+    background: green !important;
+    color: #fff;
+    box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+}
+
+/* About Us */
+
+#About{
+    background: linear-gradient(to right, #fff,#fff,#b9cd27,#4abc20 100%);
+}
+
+#About h1{
+    font-size: 50px;
+    font-weight: 800;
+    color: red;
+}
+
+/* Product */
+
+#Product{
+    background: #e5e5e5;
+}
+
+#Product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+#Product img{
+    width: 200;
+    height: 200;
+}
+
+.card{
+    width: 300px;
+    height: 450px;
+    background: #e5e5e5 !important;
+    border: none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 60px;
+    transition: .2s;
+}
+
+.card:hover{
+    box-shadow: inset 5px 2px 10px rgba(0,0,0,.3),
+                inset -4px -4px 10px white;
+                transition: .2s;
+}
+
+.Contact img {
+        width: 100%;
+        height: auto;
+      }
+
+.box{
+    width: 100% !important;
+    margin-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+#Contact input{
+    margin: 10px 0px;
+}
+
+#Contact textarea{
+    margin: 10px 0px;
+    min-height: 20%;
+}
